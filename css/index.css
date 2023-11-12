@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('fonts/NeoSansPro-Regular.eot');
+    src: local('Neo Sans Pro Regular'), local('NeoSansPro-Regular'),
+        url('fonts/NeoSansPro-Regular.woff') format('woff'),
+        url('/fonts/NeoSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.headrow1{
+    background: #232323;
+}
+.headrow2{
+    background: #131313;
+}
+.header-footer-UpText{
+    color: #8D8D8D;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+.header-footer-DownText{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+.navbar-mob{
+    background: #232323;
+    --bs-nav-link-hover-color: #FFED00;
+}
+.navbar-toggler{
+    color: #FFFFFF;
+    background: #232323;
+    border: 0;
+}
+.offcanvas{
+    background: #131313;
+}
+.offcanvas-logo{
+    max-width: 100px;
+}
+.offcanvas-title{
+    color: #EAEAEA;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Neo Sans Pro';
+}
+.navbar-mob .nav-link{
+    font-size: 20px;
+    font-weight: 500;
+}
+.head-logo{
+    max-width: 206px;
+}
+.container-head-company{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.head-company{
+    color: #EAEAEA;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Neo Sans Pro';
+    border-right: 1px solid #3C3C3C;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headQuestionsCol{
+    width: fit-content;
+    margin: auto;
+}
+#headQuestion1{
+    color: #EAEAEA;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Neo Sans Pro';
+    margin-left: auto;
+    margin-right: auto;
+}
+#headQuestion2{
+    color: #FFED00;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: 'Neo Sans Pro';
+    margin-left: auto;
+    margin-right: auto;
+}
+#btnOrderCall{
+    background: #FFED00;
+    color: #1F1F1F;
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    height: 50px;
+    font-family: 'Neo Sans Pro';
+    border-radius: 5px;
+    font-family: Neo Sans Pro;
+}
+.navbar-normal{
+    background: #0D0D0D;
+    --bs-nav-link-hover-color: #FFED00;
+}
+.nav-link{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+}
+.navbar-normal .nav-link{
+    font-weight: 500;
+    font-size: 14px;
+}
+.main{
+    background: #131313;
+    padding-bottom: 100px;
+}
+.bannerHeadText{
+    color: #1F1F1F;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+}
+.bannerUnderheadText{
+    margin-top: 10px;
+    color: #1F1F1F;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bannerButton{
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+#bannerHeadText2{
+    color:#EAEAEA;
+}
+#bannerButton1{
+    color: #FFFFFF;
+    background: #E31E24;
+}
+#bannerButton2{
+    color: #1F1F1F;
+    background: #FFED00;
+}
+#bannerButton3{
+    color: #FFFFFF;
+    background: #21385A;
+}
+.containerMain{
+    margin-top: 100px;
+}
+.MainTitle{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+}
+#row-why{
+    margin-top: 30px;
+}
+.col-why{
+    background: #232323;
+    border-radius: 5px;
+}
+.img-why{
+    padding: 15px;
+    height: 100%;
+}
+.span-why{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    padding-right: 20px;
+}
+#title-services{
+    padding-bottom: 50px;
+}
+.card{
+    border: 0;
+    --bs-card-border-radius: 5px;
+    background: #131313;
+}
+.card-img-top{
+    background: #232323;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.card-body{
+    background: #232323;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.card-title{
+    height: 50px;
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.card-text{
+    color: #FFFFFF;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card-footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    border: 0;
+    background: #232323;
+}
+.card-link{
+    color: #FFED00;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+#clients-title{
+    margin-bottom: 35px;
+}
+.swiper-slide-image{
+    max-width: 100%;
+    opacity: 0.2;
+    filter: grayscale(100%);
+}
+.swiper-slide-image:hover{
+    opacity: 1;
+    filter: none;
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+    color:#303030;
+    height: 37px;
+}
+.swiper-button-next{
+    right: var(--swiper-navigation-sides-offset,0px);
+}
+.swiper-button-prev{
+    left: 0;
+}
+.form{
+    background: #232323;
+    border-radius: 5px;
+    padding: 40px;  
+}
+.form-title{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.form-label{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+.form-control, .form-select{
+    background-color: #E9E9E9;
+    border-radius: 3px;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+form .btn{
+    background: #FFED00;
+    border-radius: 5px;
+    color: #1F1F1F;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    --bs-btn-hover-bg: #FFED00;
+}
+footer{
+    background: #0D0D0D;
+}
+#footer-logo{
+    max-width: 108px;
+}
+#footer-title{
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.footer-icon{
+    max-width: 15px;
+}
+.footer-link{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+.map{
+    height: 433px;
+}
+@media screen and (max-width: 1920px) {
+    .bannerButton{
+        margin-top: 40px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .bannerButton{
+        margin-top: 0px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .headrow2{
+        background: #232323;
+    }
+    .head-logo{
+        max-width: 150px;
+        margin-left: -70px;
+    }
+    .head-company{
+        font-size: 10px;
+        border: 0;
+    }
+    .container-head-company{
+        margin: 0;
+    }
+    .bannerHeadText{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bannerHeadText{
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    .bannerUnderheadText{
+        margin-left: 20px;
+    }
+}

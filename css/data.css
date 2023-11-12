@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('fonts/NeoSansPro-Regular.eot');
+    src: local('Neo Sans Pro Regular'), local('NeoSansPro-Regular'),
+        url('fonts/NeoSansPro-Regular.woff') format('woff'),
+        url('/fonts/NeoSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background: #131313;
+    font-family: 'Neo Sans Pro';
+    color: #FFFFFF;
+    font-size: 20px;
+}
+header{
+    background: #232323;
+}
+.header_title{
+    font-size: 24px;
+}
+header .img-fluid{
+    max-width: 200px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr, td, th{
+    border: 1px solid gray;
+}
